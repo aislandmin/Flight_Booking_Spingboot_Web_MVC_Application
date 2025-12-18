@@ -1,0 +1,63 @@
+/* Xiaomin Guo  301495284  2025-9-27 */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+	background-color: rgba(214, 231, 255, 1);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-weight: bold;
+    color: #0d47a1;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header p {
+	color: deepskyblue;
+	text-align: left;
+}
+
+.details p {
+	color: deepskyblue; 
+	font-weight: bold; 
+}
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details ul {
+    padding: 0;
+    margin: 0;
+}
+
+.details-header{
+	padding-left: 8%;     /* indentation */
+}
+
+.details ul:first-of-type {
+    list-style-type: disc;       /* show bullets */
+    list-style-position: inside; /* keep bullet aligned inside */
+    padding-left: 10%;     /* indentation */
+    color: red;                  /* bullet color */
+}
+
+.details ul:last-of-type {
+    list-style-type: none;  /* no bullets */
+    padding-left: 25%;     /* indentation */
+    color: purple;
+}
+
+.details li {
+    margin: 5px 0;
+}
+
